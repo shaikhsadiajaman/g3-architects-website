@@ -133,11 +133,6 @@ main>section{
 .featured-architect{
     margin-top: 50px;
 }
-.btn-10years{
-    position: absolute;
-    bottom: 20%;
-    left: 0;
-}
 /* some facts related styles */
 .facts-container{
     display: grid;
@@ -215,6 +210,11 @@ main>section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
