@@ -99,7 +99,7 @@ main>section{
 /* features section related styles */
 .features{
     gap: 140px;
-}
+   }
 #feature-section-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
@@ -172,6 +172,13 @@ main>section{
 }
 .sponsor-companies img{
     filter:grayscale(100%)
+}
+.footer{
+ text-align: center;
+ background-color:rgba(255, 244, 231, 1) ;
+ padding: 15px;
+ border-radius: 10px;
+ margin: 100px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
