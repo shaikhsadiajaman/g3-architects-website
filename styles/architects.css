@@ -99,8 +99,6 @@ main>section{
 /* features section related styles */
 .features{
     gap: 140px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
    }
 #feature-section-title{
     border-left: 5px solid #FF900E;
@@ -126,14 +124,13 @@ main>section{
     margin-top: -100px;
 }
 #experience-year{
-   font-size: 2rem; 
+   font-size: 4rem; 
    font-weight: 700;
 }
 .featured-architect img{
     width: 100%;
 }
 .featured-architect{
-    position: relative;
     margin-top: 50px;
 }
 .btn-10years{
@@ -195,8 +192,8 @@ main>section{
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links,
-    .teams,
-    .features {
+    .features,
+    .teams{
         flex-direction: column;
     }
     .team-img-container, 
